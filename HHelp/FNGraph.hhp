@@ -1,0 +1,17 @@
+[OPTIONS]
+Compiled file=FNGraph.chm
+Contents file=FNGraph.hhc
+Default Window=Main
+Default topic=Default.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=FNGraph.hhk
+Language=0x409 English (United States)
+Title=FNGraph Help
+
+[WINDOWS]
+Main=,"FNGraph.hhc","FNGraph.hhk","Default.htm",,,,,,0x2520,,0x304e,,,,,,,,0
+
+
+[INFOTYPES]
+

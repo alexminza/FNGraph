@@ -1,0 +1,14 @@
+<Graph>
+	<Function>tan(x)</Function>
+	<Description />
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>1</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>True</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>6</PointsSize>
+	<Color>#0000FF</Color>
+	<Visible>True</Visible>
+</Graph>

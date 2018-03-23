@@ -1,0 +1,26 @@
+<Graph>
+	<Function>15/sqrt(4+(1.5*x-12/x)^2)</Function>
+	<Min>0</Min>
+	<Max>20</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#0000FF</Color>
+	<Visible>True</Visible>
+</Graph>
+<Graph>
+	<Function>15/sqrt(18+(1.5*x-12/x)^2)</Function>
+	<Min>0</Min>
+	<Max>20</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#FF0000</Color>
+	<Visible>True</Visible>
+</Graph>

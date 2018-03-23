@@ -1,0 +1,39 @@
+<Graph>
+	<Function>sin(x)</Function>
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#000000</Color>
+	<Visible>True</Visible>
+</Graph>
+<Graph>
+	<Function>exp(x)</Function>
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#0000FF</Color>
+	<Visible>True</Visible>
+</Graph>
+<Graph>
+	<Function>sin(exp(x))</Function>
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>0.01</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>True</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#FF0000</Color>
+	<Visible>True</Visible>
+</Graph>

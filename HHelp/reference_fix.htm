@@ -1,0 +1,53 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="author" content="Alexander Minza">
+<link rel="stylesheet" href="office10.css" type="text/css">
+<title>Reference - Fix Function</title>
+</head>
+
+<body>
+
+<h1 class="RH1">Fix Function</h1>
+<p class="T">Returns the integer portion of a number.</p>
+<p class="RL"><b>Syntax</b></p>
+<p class="SYN"><b>fix</b>(<b>number</b>)</p>
+<p class="DT1">Number&nbsp;&nbsp; is any valid
+<a href="reference_numeric_expression.htm">numeric expression</a> you want to 
+truncate to an integer.</p>
+<p class="RL"><b>Remarks</b></p>
+<p class="DT1">Both <a href="reference_int.htm"><b>i</b></a><b><a href="reference_int.htm">nt</a></b> 
+and <b>fix</b> remove the fractional part of number and return the resulting 
+integer value.</p>
+<p class="DT1">The difference between <b>int</b> and <b>fix</b> is that if 
+number is negative, <b>int</b> returns the first negative integer less than or 
+equal to number, whereas <b>fix</b> returns the first negative integer greater 
+than or equal to number. For example, <b>int</b> converts -8.4 to -9, and <b>fix</b> 
+converts -8.4 to -8.</p>
+<p class="RL"><b>Example</b></p>
+<table border="0" cellPadding="4" cellSpacing="4" class="tableup" width="100%">
+  <tr>
+    <th>Expression</th>
+    <th>Description (Result)</th>
+  </tr>
+  <tr valign="top">
+    <td>fix(8.4)</td>
+    <td>Truncates 8.4 (8)</td>
+  </tr>
+  <tr valign="top">
+    <td>fix(-8.4)</td>
+    <td>Truncates -8.4 (-8)</td>
+  </tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+
+</html>

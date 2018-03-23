@@ -1,0 +1,100 @@
+
+-  Accept constant expressions in parameters text boxes
+-  Make a menu command for direct graph adding
+-  Prevent windows going off-screen (when loading saved positions)
+-  Improve the interface (toolbar, status bar, dockable windows)
+-  Make it understand the dragged-n-dropped links to documents
+
++  Possibility to customize Values font
++  Support an unlimited number of graphs
++  Implement factorial in evaluation engine
++  Update the documentation with keyboard shortcuts
++  Change the file format to an extensible one (implemented XML-like file format)
++  Use different draw widths. Draw same graph with lines and points
++  Place coordinates system origin proportionally when the window is resized.
++  Correct the problem with line crossing the borders of the view
++  Add during installation the samples to the recent files (made a link to the Samples folder in program group)
++  Make the Open/Save dialog default to the last used folders
++  Make Analyze work for custom Min, Max and Precision
++  Get rid of vb code common controls which rise a lot of problems.
+
+
+
+Bugs:
++  Max length for Function in frmGraphProperties cboFunction is 255.
+
++  In frmEval, the cmdEval_Click handler tries to hook the active document variables collection even if no document present.
+
++  When loading, if the maximum number of graphs is exceeded, the following Graph tags are ignored, but the included tags are applied to the last added graph.
+
++  Change the color serialization mode to RGB (curently saves as BGR) to comply with the XML standard.
+
++  When a loaded expression causes validation to fail and to display a message box, the document window's Activate event is not invoked and the graphs list, commands and the variables list are not updated.
+
++  When in a large zoom and far from origin, values are displayed erroneously.
+   (fixed - did not correctly clip the visible part)
+
++  The program crashes when a function loaded from the file is erroneous and is used somewhere.
+   (fixed in 2.50.114 - on load erroneous functions are excluded)
+
++  Expressions such as e(x), pi(x), 1(x) are validated. Must check if node has a constant, then it must be a terminal node.
+   (fixed in 2.50.102)
+
++  While analyzing, must take in account the graph's Max gap parameter. For example for the tan(x)/sin(x) function returns x=1.5708 as a zero.
+   (fixed in 2.50.102)
+
+
+
+User's suggestions:
+
+-  Implement styles for the graph itself
+-  Use something like "y=" or "f(x)=" when specifying a function.
+-  Draw x(y) graphs
+-  Draw f(x,y) - 3d graphs
+-  Labels
+
+
+From: Chakraborti, Subhabrata 
+To: 'Alexander Minza' 
+Sent: Thursday, January 23, 2003 12:25 AM
+Subject: FNGraph
+
+We would like to show the area under the graph that is being
+calculated as the integral.  So I specify a function, its
+range and an interval, I see a plot of the 
+Function with the area shaded and the value of the area as
+the integral.  This should not be hard in two dimensions.
+We can then think about volume etc. in higher dimensions.
+The point is to "show" what is being calculated.  Another
+problem is to shade the region under a function defined by
+several constraints.  This would also be very helpful.
+
+Best,
+
+SC
+
+
+
+From: "Devdatta Tengshe" <devdatta2000@yahoo.com> 
+To: "Alexander Minza" <alex_minza@hotmail.com>  
+Subject: FNGraph 2.51
+Date: Sun, 13 Jan 2002 22:09:46 +0530 
+
+
+Hello
+I Have been using this software for a couple of days.
+It is the best freeware graph software available.
+There were some functions that need to be added.
+1) presently the Equation needed has to be independent of y.
+ i.e. the form is f(x)=y
+We should be able to give an equation containing y
+eg.   x^2+y^2=36[this is the equation of a circle centered at the origin.]
+2)The function [x] should be introduced. [x] is the greatest integer smaller then x
+  e.g. [156.36]=156
+3)we should be able to use the hexadecimal system (Where sin 30= .5) for angles. i.e. tan(x) when x=45 should be equal to 1.
+One should be able to change between radians & degrees.
+4)The operation plus minus should be introduced.
+this would be useful for taking out both positive & negative roots of quadratic equations
+e.g. plus minus(25)^.5=5 or -5
+Thanking you
+Devdatta Tengshe

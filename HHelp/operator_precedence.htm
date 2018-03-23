@@ -1,0 +1,64 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="author" content="Alexander Minza">
+<link rel="stylesheet" href="basicIE4.css" type="text/css">
+<title>Operator precedence</title>
+</head>
+
+<body>
+
+<h1>Operator precedence</h1>
+<p>When several operations occur in an
+<a href="reference_numeric_expression.htm">expression</a>, each part is 
+evaluated and resolved in a predetermined order called operator precedence. 
+Parentheses can be used to override the order of precedence and force some parts 
+of an expression to be evaluated before other parts. Operations within 
+parentheses are always performed before those outside. Within parentheses, 
+however, normal operator precedence is maintained.</p>
+<p><b>Arithmetic operators are evaluated in the following order of precedence:</b></p>
+<table>
+  <tr>
+    <td><code>!</code></td>
+    <td></td>
+    <td>Factorial</td>
+  </tr>
+  <tr>
+    <td><code>^</code></td>
+    <td></td>
+    <td>Exponentiation</td>
+  </tr>
+  <tr>
+    <td><code>-</code></td>
+    <td></td>
+    <td>Negation</td>
+  </tr>
+  <tr>
+    <td><code>*</code></td>
+    <td><code>/</code></td>
+    <td>Multiplication and Division</td>
+  </tr>
+  <tr>
+    <td><code>+</code></td>
+    <td><code>-</code></td>
+    <td>Addition and Subtraction</td>
+  </tr>
+</table>
+<p>When multiplication and division occur together in an expression, each 
+operation is evaluated as it occurs from left to right. Likewise, when addition 
+and subtraction occur together in an expression, each operation is evaluated in 
+order of appearance from left to right.</p>
+<p>You can enclose any operand in parentheses. For example, in the expression:
+<code>(10+5)/5</code> the parentheses around <code>10+5</code> mean that the 
+value of <code>10+5</code> is evaluated first and it becomes the left operand of 
+the division (<code>/</code>) operator. The result of <code>(10+5)/5</code> is
+<code>3</code>. Without the parentheses, <code>10+5/5</code> would evaluate to
+<code>11</code>.</p>
+
+</body>
+
+</html>

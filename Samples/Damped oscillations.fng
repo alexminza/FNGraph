@@ -1,0 +1,42 @@
+<Graph>
+	<Function>exp(-x/4)*10*cos(x*3)</Function>
+	<Description />
+	<Min>0</Min>
+	<Max>20</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#000000</Color>
+	<Visible>True</Visible>
+</Graph>
+<Graph>
+	<Function>exp(-x/4)*10</Function>
+	<Description />
+	<Min>0</Min>
+	<Max>20</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#0000FF</Color>
+	<Visible>True</Visible>
+</Graph>
+<Graph>
+	<Function>-exp(-x/4)*10</Function>
+	<Description />
+	<Min>0</Min>
+	<Max>20</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#0000FF</Color>
+	<Visible>True</Visible>
+</Graph>

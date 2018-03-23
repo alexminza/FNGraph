@@ -1,0 +1,80 @@
+<DocumentScaling>40</DocumentScaling>
+<OriginX>510</OriginX>
+<OriginY>359</OriginY>
+<BackgroundColor>#FFFFFF</BackgroundColor>
+<Axes>
+	<Visible>True</Visible>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Axes>
+<Grid>
+	<Visible>True</Visible>
+	<Color>#DFDFDF</Color>
+	<Style>2</Style>
+	<Width>1</Width>
+</Grid>
+<Values>
+	<Visible>True</Visible>
+	<Color>#000000</Color>
+</Values>
+<Graph>
+	<Function>sin(x+1)*3</Function>
+	<Description>Just a simple description</Description>
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#FF0000</Color>
+	<Visible>True</Visible>
+</Graph>
+<Graph>
+	<Function>sin(x+2)*2</Function>
+	<Description />
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#00FF00</Color>
+	<Visible>False</Visible>
+</Graph>
+<Graph>
+	<Function>sin(x+1)*3+sin(x+2)*2</Function>
+	<Description>Another description</Description>
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#0000FF</Color>
+	<Visible>True</Visible>
+</Graph>
+<Graph>
+	<Function>t</Function>
+	<Description />
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#FF0000</Color>
+	<Visible>True</Visible>
+</Graph>
+<Variable>
+	<Name>t</Name>
+	<Value>1</Value>
+</Variable>

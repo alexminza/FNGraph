@@ -1,0 +1,26 @@
+<Graph>
+	<Function>sin(x)</Function>
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>0.5</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>False</DrawLines>
+	<DrawPoints>True</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>2</PointsSize>
+	<Color>#0000FF</Color>
+	<Visible>True</Visible>
+</Graph>
+<Graph>
+	<Function>x-x^3/3!+x^5/5!-x^7/7!</Function>
+	<Min>-10</Min>
+	<Max>10</Max>
+	<Precision>0.05</Precision>
+	<MaxGap>75</MaxGap>
+	<DrawLines>True</DrawLines>
+	<DrawPoints>False</DrawPoints>
+	<LinesWidth>1</LinesWidth>
+	<PointsSize>1</PointsSize>
+	<Color>#FF0000</Color>
+	<Visible>True</Visible>
+</Graph>

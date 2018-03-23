@@ -1,0 +1,431 @@
+.LOG
+
+12:04 22.07.00
+Started the log.
+
+13:30 22.07.00
+Added an alias for the sgn function: sign.
+The Graphs window made not to close on Esc.
+
+13:46 22.07.00
+Fixed the bug in the Evaluate dialog: did not build the tree for a new expression after an erroneus one.
+
+15:37 25.07.00
+Added new aliases for:
+arccosec - arccsc
+arccotan - arccot
+harcsin - arcsinh
+harccos - arccosh
+harctan - arctanh
+harcsec - arcsech
+harccosec - arccsch
+harccotan - arccoth
+
+22:16 27.07.00
+Yesterday reinstalled the OS and all the software. There have arised some problems: possibly version conflicts. FNGraph gives the error "Unexpected error; quitting".
+
+21:18 03.08.00
+Fixed the problem with cmdlg32.ocx design time licensing.
+
+15:04 06.08.00
+Removed the huge comctl32.ocx. Still looking for replacement.
+Implemented the status bar control from vbAccelerator.
+
+22:09 08.08.00
+Added image list comctl32 wrapper (code from vbAccelerator) after a lot of code formatting and adaptation.
+Also downloaded today Inno Setup Extensions (ISX). Maybe will use it as the app installer.
+
+22:32 08.08.00
+The commented code portions are marked with "'commented by me"
+Also I have modified the form design of the ImageList property pages.
+
+13:28 18.08.00
+On 15 august updated the Hi-Tech and FNGraph sites.
+Still adapting the toolbar code.
+
+22:33 20.08.00
+Have to do some cosmetic work for the toolbar.
+
+11:07 22.08.00
+Made the Graphs window resizable. Width and Height properties are also remebered. Removed the Close button.
+
+13:26 04.09.00
+Working on the comctl32 trackbar. Problems with the focus.
+
+18:25 06.09.00
+Ready (?) to release the B3 version. Final patches.
+Made the toolbar show tooltips.
+Current version is 2.50.81.
+
+16:30 06.11.2000
+TWO MONTHS with NO changes to FNGraph! Must start coding...
+
+18:31 13.11.2000
+STATS: Passed to the B4 version.
+DONE: Added mouse moving for the coordinates system.
+STATS: The toolbar is very glitchy, so are the other implemented common controls.
+
+13:44 15.11.2000
+DONE: Improved a bit the FileSave and FileOpen routines.
+DONE: Added the Visible property for the graph which can be toggled in the Graphs window. It is not saved in the file to maintain the compatibility.
+
+09:25 11.12.2000
+BUGFIX: Fixed some glitches with the Open/Save as dialog (incorrect filter for Save As, open supplied a default file name but the Save As should).
+
+11:23 31.01.01
+DONE: Saves recent folder (open/save dialog).
+
+19:35 31.01.01
+BUGFIX: Fixed the ShortenTitle function. It cut the last 4 chars (.ext) even if the filename had no extension.
+
+16:51 05.02.01
+STATS: Had removed the code toolbar, status bar and track bars & commented the code where needed to run the program without theese. The exe file is 253440 bytes. ISX version 1.3.25.
+
+8:28 09.02.01
+WEBSITE: Yesterday updated both sites. Improved Analyze dialog - editable min, max, precision and step fields; you can now also copy only selected zeroes.
+
+11:35 03.03.01
+STATS: Compiled and packaged the 2.50 B4 RC1 version. Internal use only.
+
+10:40 04.03.01
+DONE: Tweaks in the BuildBET subroutine.
+
+13:15 04.03.01
+BUGFIX: Fixed File_SaveAs: Supplied as the filename the full path.
+
+01:46 11.03.2001
+STATS: Working on the HHelp version of FNGraph Help.
+
+14:28 13.04.01
+BUGFIX: Fixed the problem with expressions such as pi(x) or 1(x) being validated.
+BUGFIX: Fixed the bug with Analyze tool which did not take in account the MaxGap parameter.
+DONE: Changed the icon in the syntax errors message boxes from vbCritical to vbExclamation.
+STATS: Current version is 2.50.103
+
+12:32 18.04.01
+DONE: For lblAuthor, lblEmail, lblURL in frmAbout AutoSize=True.
+
+16:11 21.04.01
+DONE: Fixed the problem with segments clipping!
+DONE: Found possible memory leak in frmGraph.GraphsEval. Workaround implemented.
+
+16:44 05.05.01
+DONE: In frmGraph.GraphDrawPoints now is checked whether the point is visible.
+
+22:22 26.06.01
+DONE: Minor optimizations.
+DONE: Removed the Valid property.
+DONE: On window resize the coordinates system is moved proportionally.
+DONE: On load erroneous functions are excluded.
+WEBSITE: ListBot service is discontinued. Must update the site urgently.
+
+21:58 27.06.01
+DONE: In Properties dialog it is checked if properties changed or not.
+
+22:13 27.06.01
+DONE: On FileOpen the default document window is closed if it was not modified.
+
+20:14 04.07.01
+BUGFIX: Fixed the code for the previous feature. It would fail if the default document was closed.
+BUGFIX: Fixed the FileNew code in frmGraph. Did not set ResizeEnable to True.
+WEBSITE: Because of the ListBot service shutdown a new mailing list was created at Topica.
+STATS: Now using InnoSetup 2.0.11
+
+21:43 10.07.01
+STATS: Implementing the new file format.
+
+22:00 11.07.01
+DONE: New graph properties: can draw lines and/or points, custom lines/points size.
+STATS: Current version is 2.50.119 (BETA 4)
+
+20:18 12.07.01
+DONE: Now expands the command line to a full path
+
+21:53 13.07.01
+DONE: Now saves and reads encoded colors (like #0000FF)
+
+10:50 14.07.01
+BUGFIX: Correctly updates the check mark in the Graphs window after the Visible porperty was changed.
+
+13:26 15.07.01
+DONE: Now correctly zooms if the origin of the coordinates system is not in the center of the view.
+
+20:31 19.07.01
+STATS: Preparing to publish tomorrow the last beta of the 2.50 version.
+DONE: Now saves OriginX and OriginY as pixel values. The GraphsScale is saved divided by 15.
+
+11:38 29.07.01
+BUGFIX: Fixed few bugs in frmGraph.DrawValues - did not properly clip visible region.
+
+22:39 29.07.01
+DONE: Optimized the frmGraph.DrawValues routine. Better clipping.
+
+23:06 29.07.01
+BUGFIX: On ViewAxes, ViewGrid, ViewValues change did redraw all document windows.
+
+23:11 29.07.01
+DONE: Did a Kill before opening the file for output - no need for that.
+
+20:53 03.09.01
+BUGFIX: If right mouse button was clicked over a non active window, it was not activated and the context menu was shown for the same window.
+STATS: Looking for interface ocx-es. Reviewed SmartUI 1.1 and ActiveBar build 1065.
+
+22:55 16.09.01
+STATS: Tried ActiveBar 2. I think the interface is not so important by now. Thinking about a rewrite from zero of the entire program.
+
+17:37 23.09.01
+DONE: Improved the BuildBET routine. It now checks if the segment to be built is not empty. Updated the CheckBET routine.
+STATS: Changed the links to the site to the original (redirect from n3.net will no longer be used). Version 2.51.0002.
+
+07:15 10.10.2001
+DONE: Before "digging deeper" the EvalBET checks if the node exists.
+DONE: Changed MAX_GRAPHS to 32.
+DONE: Uses "Assume No Aliasing" compiler optimization option.
+
+17:50 10.10.2001
+DONE: Removed the View | Refresh menu item.
+STATS: Now using Inno Setup 2.0.14. Current version 2.51.0005.
+
+09:38 21.10.2001
+DONE: Removed the View Axes, Grid and Values menu items.
+
+10:19 21.10.2001
+DONE: Added a new dialog box - Document Properties, which introduces per-document properties for background, axes, grid and values.
+DONE: Removed the modMain.ChildreRedraw routine - not needed anymore.
+
+10:28 21.10.2001
+FIX: Now properly exludes in the early stage (CheckParentheses rotine) the empty parentheses.
+
+11:21 21.10.2001
+FIX: When PrepareBET encounters an unary minus, it sets the left branch index to -1; a signal for the EvalBET.
+
+14:34 21.10.2001
+DONE: Now saves the background, axes, grid and values properties in the document file.
+
+08:40 23.10.2001
+DONE: Added new document properties: AxesWidth and GridWidth (which also saved). When width is set grater than 1 the style property has no effect.
+DONE: Temporarily commented the Origin properties save and load commands. Thinking about a monitor resolution independent solution (used pixel distance from the top-left corner of the window before).
+DONE: Values are properly padded from the axes with different widths.
+STATS: Now using Inno Setup 2.0.16. Current version 2.51.0009.
+
+13:56 04.11.2001
+DONE: Placed copyright notice in Help | About and in the help file.
+DONE: Commented out the Origin properties save/load commands.
+
+11:59 08.11.2001
+DONE: Does not warn and refuse to load unknown format files. Interprets only the known data structures.
+
+19:39 11.11.2001
+DONE: Added factorial (!) operator.
+
+15:49 12.11.2001
+FIX: On very large values frmDocument.GraphsTrace failed. Implemented an ErrorHandler.
+
+15:52 12.11.2001
+DONE: The maximum for MaxGap was changed to 500.
+
+22:42 13.11.2001
+FIX: Did not load the Width setting for Axes and Grid.
+DONE: Changed the output format for Axes, Grid and Values. Tweaks in the frmDocument.HandleTag routine.
+
+21:01 14.11.2001
+FIX: At startup did a redundant update of the Graphs list.
+
+16:03 18.11.2001
+DONE: No longer suggests the last function when adding a graph.
+
+18:00 19.11.2001
+STATS: Preparing to publish tomorrow the 2.51 version.
+
+02:39 24.11.2001
+STATS: Implementing OOP concepts. A lot of rewrite needs to be done.
+
+12:14 24.11.2001
+STATS: The first build (ver. 2.60) went fine! Cleaning and optimizing the code.
+
+22:28 24.11.2001
+DONE: Now there is a confirmation option for graph deletion.
+
+22:41 24.11.2001
+FIX: The recent functions were saved with one more (the oldest), which was never loaded.
+
+22:50 24.11.2001
+FIX: Accidentally removed the GraphsDel routine. Did not realise that it properly deleted the cached values.
+
+11:32 25.11.2001
+DONE: No longer pops up the Window menu after a right click on the main window workspace.
+
+21:57 27.11.2001
+DONE: Does not suggest the last used function when there was an attempt to apply an empty string in frmGraphProperties.cmdOk_Click.
+
+13:33 30.11.2001
+DONE: Does not show in Open dialog files other than *.fng.
+
+10:51 06.12.2001
+FIX: Fixed an issue with MRU file list.
+
+20:24 13.12.2001
+DONE: Sets the FileChanged flag when the graph visibility was changed from the Graphs window.
+
+18:15 13.01.2002
+DONE: Passed to VB6 as the development environment.
+
+21:42 20.01.2002
+STATS: On Friday, January 18 presented FNGraph got 10 at the Project discipline.
+FIX: The Integrate dialog code was not updated for the recent changes in the program hierarchy. (It passed the full compile because of late binding.)
+
+22:23 20.01.2002
+DONE: Changed the icons to the new WinXP style.
+
+00:42 04.02.2002
+DONE: Added the Radians function which converts degrees to radians.
+
+11:10 04.02.2002
+DONE: Changed the specification for the Log function: Log(number, base).
+STATS: Working on the CHM Help with epxressions reference.
+
+15:59 04.02.2002
+DONE: Added the Degrees function which converts radians to degrees.
+
+21:00 07.02.2002
+STATS: Reversed to VB5. 
+
+21:27 07.02.2002
+DONE: Added a manifest (as an external file) so now WinXP recognizes and applies visual styles to FNGraph.
+
+19:11 08.02.2002
+DONE: Better intrinsic support for unary operators (specifically "-").
+
+20:32 09.02.2002
+DONE: Zeroed the WhatsThisHelpID property from the Evaluate dialog controls. Set the AutoSize property to true for "Function" labels in all dialogs.
+
+16:15 10.02.2002
+FIX: In frmGraphProperties and frmEval if you entered an expression which did not pass the syntax check, and then tried to reapply, it would pass.
+DONE: Simplified frmGraphs - frmGraphProperties communication mechanism. Added a generic function CheckExpressionSyntax.
+
+18:34 12.02.2002
+FIX: If the properties (of an added graph) dialog was closed by the window control button it would be interpreted as Ok was pressed.
+
+13:16 14.02.2002
+DONE: Changed gMaxScale = 6600
+
+22:29 15.02.2002
+DONE: In frmMain.FileOpen checks the file extension before opening.
+
+21:21 18.02.2002
+DONE: Added a new graph property - Description.
+
+04:55 19.02.2002
+DONE: FNGraph now uses HtmlHelp instead of WinHelp.
+
+19:10 19.02.2002
+DONE: In frmTrace the active document DrawMode is set only on Load and QueryUnload events, and not on every draw.
+
+13:54 24.02.2002
+DONE: Implementing user-defined variabes. Added two forms - frmVariables and frmVariableProperties. Added two classes - clsVariable and clsVariablesCollection.
+
+12:01 28.02.2002
+DONE: Calls InitCommonControls at startup.
+
+14:16 02.03.2002
+DONE: User-defined variables work fine. Have to implement some routine checks (detect redefining a used variable).
+FIX: frmEval failed to load active document's graphs
+
+14:19 02.03.2002
+DONE: If changing the properties of a variable, the Value text box gets the focus instead of the Name text box.
+
+14:28 02.03.2002
+DONE: Rename of an used variable is now detected.
+
+23:53 02.03.2002
+DONE: Changed acceptable range for Min and Max to -10000 up to 10000.
+
+10:29 06.03.2002
+DONE: Loads saved variables. Currently no checks performed for the validity.
+
+12:36 07.03.2002
+DONE: Accepts digits in variables names, but must begin with a letter.
+
+00:19 09.03.2002
+DONE: Now maps to the MS Shell Dlg for the dialog font.
+
+12:29 10.03.2002
+DONE: in frmDocument Activate event does not call frmMain.UpdateGraphCmds because frmMain.UpdateGraphsList already does it.
+
+17:53 18.03.2002
+STATS: Yesterday updated the program site. Now available a mirror download from students.infoiasi.ro.
+
+17:53 15.07.2002
+STATS: Version 2.61
+FIX: Thanks to Joel Kammet <jkammet@yahoo.com> for spotting this error: arccotan(x) = 2*arctan(1) - arctan(x). Used VB documentation formula before.
+
+09:41 22.07.2002
+FIX: In documentation Getting Started - Expressions - logarithm example was not updated after the change in parameters order.
+
+13:33 07.08.2002
+STATS: Program for graphing and analyzing mathematical functions. Customization of graphs and coordinates system, several graphs in a document, shell integration. Support for complex syntax and a large variety of functions. Contains tools for function evaluation, analysis and integration. The result can be copied to the clipboard as a picture or printed directly from the application.
+
+15:12 07.08.2002
+STATS: Published version 2.61
+
+10:01 09.09.2002
+FIX: Changed the color coding. Was: #BBGGRR Now: #RRGGBB
+
+14:33 10.09.2002
+DONE: Separate scale coefficients for x and y. Mouse zooming.
+
+11:55 18.09.2002
+DONE: Removed Print Setup menu item.
+DONE: When choosing File | Print the Print commong dialog is shown. Orientation, Copies properties have effect.
+
+10:27 03.10.2002
+FIX: Graph Properties has frmMain as the parent, therefore the program icon doesn't disapear from the Alt+Tab. Problems appeared with the "Assume No Aliasing" compiler optimization option. Option now disabled.
+DONE: Graph Properties now remembers it's last position, just like the other tool windows.
+DONE: Removed the obsolete global variables: glngZoomStep, glngMoveStep, glngDefaultScale.
+
+10:30 03.10.2002
+DONE: Customizable font for Values (FontName, FontSize, FontBold, FontItalic). Default FontName = "MS Sans Serif", FontSize = 8.
+
+21:45 09.10.2002
+DONE: frmVariableProperties has frmMain as the parent, remembers it's last position and stores recent variable names.
+
+21:52 09.10.2002
+DONE: Commented the .SetFocus 'VB5 Bug code.
+
+22:10 09.10.2002
+FIX: ? In frmAnalyze and frmIntegrate the parent for optPrecision and optSteps is now the form instead of the frame - in WinXP with visual styles the option buttons are drawn correctly (instead of black boxes). Strange flicker still remains.
+
+21:30 14.10.2002
+DONE: Implemented Cohen-Sutherland line-clipping algorithm
+DONE: When drawing a graph, the frmDocument.ForeColor is set, instead of specifying it with every Line statement.
+
+17:40 16.10.2002
+DONE: Implemented zoom limitations for mouse and keyboard zooming.
+
+17:45 16.10.2002
+FIX: Corrected the Ctrl+Enter sequence, did a twice check for the same scaling factor (instead for both) and required both to be different from default (insted of just one).
+
+22:27 16.10.2002
+FIX: In frmAnalyze the TabOrder was corrcted because of the recent manipulations with Option Buttons.
+DONE: In frmAnalyze the cmdCopySel button is enabled only when lstResults.SelCount > 0.
+
+10:31 18.10.2002
+DONE: Unlimited number of graphs accepted.
+
+16:37 25.10.2002
+FIX: Corrected the zooming routines. If a scale factor exceeds range - it is set to the range value.
+DONE: frmDocument.KeyPress and frmDocument.KeyDown use for temporary calculations the global lngTemp variable, as the frmDocuemnt.MouseMove handler.
+DONE: Simplified several subroutines, which stored internally the frmDocument.ScaleWidth and frmDocument.ScaleHeight properties: now using the global llngSW and llngSH members.
+
+17:00 25.10.2002
+DONE: Moved the frmDocument.GraphsDraw code into the frmDocument.WindowRefresh sub, because not called from anywhere else.
+
+17:08 25.10.2002
+DONE: Removed unnecessary code regarding the restoration of defaults for frmDocument.DrawStyle and frmDocument.DrawWidth at the end of procedure which changes them. Now every sub is responsible for setting it's drawing attributes.
+
+19:18 25.10.2002
+FIX: frmTrace on load sets the frmMain.Activeform.DrawWidth property to 1 (in case it was modified by other subs).
+DONE: Removed the cmdClose command button from the frmTrace form. Now catching the KeyPress event and checking for Escape key to close the window (frmTrace.KeyPreview = True).
+
+20:45 29.04.2003
+FIX: In frmEval the cmdEval handler tried to hook to the active document's variables collection even if no document was open.

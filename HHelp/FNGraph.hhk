@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="- operator">
+		<param name="Local" value="reference_subtraction_negation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="! operator">
+		<param name="Local" value="reference_factorial.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="* operator">
+		<param name="Local" value="reference_multiplication.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="/ operator">
+		<param name="Local" value="reference_division.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="^ operator">
+		<param name="Local" value="reference_exponentiation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="+ operator">
+		<param name="Local" value="reference_addition.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="abs">
+		<param name="Local" value="reference_abs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="arccos">
+		<param name="Local" value="reference_arccos.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="arcsin">
+		<param name="Local" value="reference_arcsin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="atn">
+		<param name="Local" value="reference_atn.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Constants">
+		<param name="Local" value="constants.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cos">
+		<param name="Local" value="reference_cos.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="degrees">
+		<param name="Local" value="reference_degrees.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="e">
+		<param name="Name" value="Reference - E Constant">
+		<param name="Local" value="reference_e.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Examples of expressions">
+		<param name="Local" value="expressions_examples.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="exp">
+		<param name="Name" value="Reference - Exp Function">
+		<param name="Local" value="reference_exp.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Expressions">
+		<param name="Local" value="expressions.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fix">
+		<param name="Name" value="Reference - Fix Function">
+		<param name="Local" value="reference_fix.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Functions">
+		<param name="Local" value="functions.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="harccos">
+		<param name="Local" value="reference_harccos.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="harcsin">
+		<param name="Local" value="reference_harcsin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="harctan">
+		<param name="Local" value="reference_harctan.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="hcos">
+		<param name="Local" value="reference_hcos.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="hsin">
+		<param name="Local" value="reference_hsin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="htan">
+		<param name="Local" value="reference_htan.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="int">
+		<param name="Name" value="Reference - Int Function">
+		<param name="Local" value="reference_int.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Keyboard shortcuts">
+		<param name="Local" value="keyboard_shortcuts.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="lg">
+		<param name="Name" value="Reference - Lg Function">
+		<param name="Local" value="reference_lg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ln">
+		<param name="Name" value="Reference - Ln Function">
+		<param name="Local" value="reference_ln.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="log">
+		<param name="Name" value="Reference - Log Function">
+		<param name="Local" value="reference_log.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="max">
+		<param name="Name" value="Reference - Max Function">
+		<param name="Local" value="reference_max.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="min">
+		<param name="Name" value="Reference - Min Function">
+		<param name="Local" value="reference_min.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="mod">
+		<param name="Name" value="Reference - Mod Function">
+		<param name="Local" value="reference_mod.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="numeric expression">
+		<param name="Name" value="Reference - Numeric Expression">
+		<param name="Local" value="reference_numeric_expression.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Numerical issues">
+		<param name="Local" value="numerical_issues.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Operator precedence">
+		<param name="Local" value="operator_precedence.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Operators">
+		<param name="Local" value="operators.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="pi">
+		<param name="Name" value="Reference - Pi Constant">
+		<param name="Local" value="reference_pi.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="radians">
+		<param name="Local" value="reference_radians.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="sgn">
+		<param name="Name" value="Reference - Sgn Function">
+		<param name="Local" value="reference_sgn.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="sin">
+		<param name="Name" value="Reference - Sin Function">
+		<param name="Local" value="reference_sin.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="sqr">
+		<param name="Name" value="Reference - Sqr Function">
+		<param name="Local" value="reference_sqr.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tan">
+		<param name="Name" value="Reference - Tan Function">
+		<param name="Local" value="reference_tan.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>
